@@ -1,0 +1,236 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "buyMonthlyTicket",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_amount",
+						"type": "uint16"
+					}
+				],
+				"name": "createTrx",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "trxIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "fundTrx",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "trxIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDayAvailable",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "trxIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getTrxFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "trxIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getTrxOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ticketFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "trxList",
+				"outputs": [
+					{
+						"internalType": "contract Transaction",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "trxIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawTrx",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Customer.sol": "Customer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Customer.sol": {
+			"keccak256": "0xf0b2bb67a74a4209c9a9198f7ac209c6b04a5aff437329b3d071be3577a716ea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24b1f60233f5679c0e4c15bd465a5482ac6e03665fb4631bc88b42a01a535a31",
+				"dweb:/ipfs/QmZ6U4JTofBZQrMnEAGJn6xviygiqrsimEcK5voh8gUERD"
+			]
+		},
+		"contracts/Storage.sol": {
+			"keccak256": "0xce0afa165192370927939d36310b964c389fe3d7a48a50e30d8f96ce0389b82c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bdf97c3c72f5cb22ae23ca9a59a2309137004cb55a68c3b8fed7369fc8a2e227",
+				"dweb:/ipfs/QmXsDctXMKVrpfq4UbvJbnWygHksCLMehiQq4XqnnA16Wd"
+			]
+		},
+		"contracts/Transaction.sol": {
+			"keccak256": "0x97bd66f13644d0e93e0b532624e8cd24899abfae2ab748b2d48dd7f62599e780",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0d91330c7bed9e0b7c2c6594ae165189582393301a24e598eddf78c144b25ef",
+				"dweb:/ipfs/QmVdjoehmRxLiXnSMkTHM3ug3XVtDez8UDqJUJucEeLJPb"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		}
+	},
+	"version": 1
+}

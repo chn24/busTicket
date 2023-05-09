@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.3+commit.8d00100c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_m",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "aaa",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test.sol": "PayMain"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test.sol": {
+			"keccak256": "0x36fc8f034d09dbac4630ac9c463c7329664505706a82e31134e2f49df1726592",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c6d884debc48ad63505188090e69a73621cefc4387a16b962a067f517034617",
+				"dweb:/ipfs/QmWDP1PSTCh2r3RXGdrBdwbZs5ax2UwNDk3L4YDBVhP5LU"
+			]
+		}
+	},
+	"version": 1
+}
